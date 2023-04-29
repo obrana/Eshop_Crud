@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ombikramrana/Projects/eshopCrud/eshopCrud/eshopCrud.csproj": {}
+    "/Users/ombikramrana/Documents/GitHub/Eshop_Crud/eshopCrud/eshopCrud.csproj": {}
   },
   "projects": {
-    "/Users/ombikramrana/Projects/eshopCrud/eshopCrud/eshopCrud.csproj": {
+    "/Users/ombikramrana/Documents/GitHub/Eshop_Crud/eshopCrud/eshopCrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ombikramrana/Projects/eshopCrud/eshopCrud/eshopCrud.csproj",
+        "projectUniqueName": "/Users/ombikramrana/Documents/GitHub/Eshop_Crud/eshopCrud/eshopCrud.csproj",
         "projectName": "eshopCrud",
-        "projectPath": "/Users/ombikramrana/Projects/eshopCrud/eshopCrud/eshopCrud.csproj",
+        "projectPath": "/Users/ombikramrana/Documents/GitHub/Eshop_Crud/eshopCrud/eshopCrud.csproj",
         "packagesPath": "/Users/ombikramrana/.nuget/packages/",
-        "outputPath": "/Users/ombikramrana/Projects/eshopCrud/eshopCrud/obj/",
+        "outputPath": "/Users/ombikramrana/Documents/GitHub/Eshop_Crud/eshopCrud/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -40,6 +40,48 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.33, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,7 +1,14 @@
+using eshopCrud;
+using Microsoft.EntityFrameworkCore;
+using System.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<MyDbContext>();
+
 
 var app = builder.Build();
 
