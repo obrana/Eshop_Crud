@@ -1,21 +1,14 @@
 ﻿<Properties StartupConfiguration="{7B734C15-6C02-4F18-9A00-ADE15A569EF4}|https">
-  <MonoDevelop.Ide.ItemProperties.eshopCrud PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="eshopCrud/Controllers/ProductsController.cs">
+  <MonoDevelop.Ide.ItemProperties.eshopCrud PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="eshopCrud/appsettings.json">
     <Files>
-      <File FileName="eshopCrud/appsettings.json" Line="10" Column="23" />
-      <File FileName="eshopCrud/DbContext.cs" Line="23" Column="1" />
-      <File FileName="eshopCrud/Program.cs" Line="10" Column="9" />
-      <File FileName="eshopCrud/Models/Product.cs" Line="16" Column="1" />
-      <File FileName="eshopCrud/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="eshopCrud/Controllers/ProductsController.cs" Line="24" Column="1" />
-      <File FileName="eshopCrud/Views/Products/Index.cshtml" Line="1" Column="20" />
-      <File FileName="eshopCrud/appsettings.Development.json" Line="10" Column="2" />
+      <File FileName="eshopCrud/appsettings.json" Line="13" Column="22" />
+      <File FileName="eshopCrud/Program.cs" />
+      <File FileName="eshopCrud/Models/Product.cs" />
+      <File FileName="eshopCrud/Controllers/HomeController.cs" />
+      <File FileName="eshopCrud/Views/Products/Index.cshtml" />
+      <File FileName="eshopCrud/appsettings.Development.json" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,11 +23,16 @@
               <Node name="Views" expanded="True">
                 <Node name="Products" expanded="True" />
               </Node>
-              <Node name="appsettings.json" expanded="True" />
+              <Node name="appsettings.json" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
