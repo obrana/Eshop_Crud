@@ -11253,11 +11253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ombikramrana/Projects/CountryApp/CountryApp/CountryApp.csproj",
+      "projectUniqueName": "/Users/ombikramrana/Documents/GitHub/Eshop_Crud/CountryApp/CountryApp.csproj",
       "projectName": "CountryApp",
-      "projectPath": "/Users/ombikramrana/Projects/CountryApp/CountryApp/CountryApp.csproj",
+      "projectPath": "/Users/ombikramrana/Documents/GitHub/Eshop_Crud/CountryApp/CountryApp.csproj",
       "packagesPath": "/Users/ombikramrana/.nuget/packages/",
-      "outputPath": "/Users/ombikramrana/Projects/CountryApp/CountryApp/obj/",
+      "outputPath": "/Users/ombikramrana/Documents/GitHub/Eshop_Crud/CountryApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

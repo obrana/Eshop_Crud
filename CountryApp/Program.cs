@@ -9,7 +9,12 @@ builder.Services.AddControllersWithViews();
 
 
 builder.Services.AddDbContext<HumanResourceContext>(options =>
-options.UseMySQL(builder.Configuration.GetConnectionString("dbconn")));
+{
+    var connectionString = builder.Configuration.GetConnectionString("dbconn");
+    options.UseMySQL(connectionString ?? throw new ArgumentNullException(nameof(connectionString)));
+});
+//options.UseMySQL(builder.Configuration.GetConnectionString("dbconn")));
+
 
 
 var app = builder.Build();
