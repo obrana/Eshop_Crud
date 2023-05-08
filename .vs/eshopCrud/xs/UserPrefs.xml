@@ -1,38 +1,40 @@
 ﻿<Properties StartupConfiguration="{7B734C15-6C02-4F18-9A00-ADE15A569EF4}|https">
+  <MonoDevelop.Ide.ItemProperties.eshopCrud PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="eshopCrud/MyDbContext.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="eshopCrud/Controllers/ProductsController.cs">
     <Files>
-      <File FileName="eshopCrud/appsettings.json" />
-      <File FileName="eshopCrud/Program.cs" />
-      <File FileName="eshopCrud/Models/Product.cs" />
+      <File FileName="eshopCrud/appsettings.json" Line="10" Column="23" />
+      <File FileName="eshopCrud/DbContext.cs" Line="23" Column="1" />
+      <File FileName="eshopCrud/Program.cs" Line="10" Column="9" />
+      <File FileName="eshopCrud/Models/Product.cs" Line="16" Column="1" />
       <File FileName="eshopCrud/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="eshopCrud/Views/Products/Index.cshtml" />
-      <File FileName="eshopCrud/appsettings.Development.json" />
-      <File FileName="eshopCrud/MyDbContext.cs" Line="1" Column="1" />
-      <File FileName="eshopCrud/Views/_ViewStart.cshtml" />
-      <File FileName="eshopCrud/Views/Home/Index.cshtml" />
-      <File FileName="eshopCrud/Views/Products/Edit.cshtml" />
-      <File FileName="eshopCrud/Views/Products/Details.cshtml" />
-      <File FileName="eshopCrud/Views/Products/Delete.cshtml" />
-      <File FileName="eshopCrud/Views/Products/Create.cshtml" />
-      <File FileName="eshopCrud/Controllers/Products.cs" Line="136" Column="30" />
+      <File FileName="eshopCrud/Controllers/ProductsController.cs" Line="24" Column="1" />
+      <File FileName="eshopCrud/Views/Products/Index.cshtml" Line="1" Column="20" />
+      <File FileName="eshopCrud/appsettings.Development.json" Line="10" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="eshopCrud" expanded="True">
             <Node name="eshopCrud" expanded="True">
-              <Node name="MyDbContext.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Products" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.eshopCrud PreferredExecutionTarget="/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
 </Properties>
