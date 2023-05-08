@@ -19,7 +19,7 @@ public partial class HumanResourceContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-
+       
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
